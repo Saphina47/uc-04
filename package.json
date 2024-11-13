@@ -1,0 +1,22 @@
+{
+  "name": "aula-01-ambiente-dev",
+  "version": "1.0.0",
+  "main": "./.src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts",
+    "start": "npx tsc && node ./dist/index.js"
+  },
+  "keywords": [
+    "projeto",
+    "ambiente"
+  ],
+  "author": "Jocelyn Laurent",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
